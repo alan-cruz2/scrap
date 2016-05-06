@@ -68,12 +68,10 @@ var bDataCB= function(html, vals){
 };
 
 var precinctCB = function(value, prov, mun, brun){
-  console.log('activeReqeusts: ' + --this.reqActive);
   sendRequest('https://www.comelec.gov.ph/php-scripts/2016NLE/prcnum/' + value + '/preclist2016_' + value + '.html', pSubCB, {prov: prov, mun: mun, brun: brun});
 };
 
 var pSubCB = function(html, vals){
-  console.log('activeReqeusts: ' + --reqActive);
   var $ = cheerio.load(html);
   var options = $('option');
   for(var i = 0; i < options.length; i++){
