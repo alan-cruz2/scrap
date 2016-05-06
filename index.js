@@ -1,7 +1,6 @@
 var fs = require('fs');
 var request = require('request');
 var cheerio = require('cheerio');
-var superagent = require('superagent');
 
 //allows the request library to create and maintain a
 //theoretical unlimited number of event emitters/listeners
