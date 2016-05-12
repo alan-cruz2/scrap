@@ -6,10 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies" :{
-    "express" : "latest",
-    "request" : "latest",
-    "cheerio" : "latest"
+  "dependencies": {
+    "cheerio": "latest",
+    "cloudscraper": "^1.2.2",
+    "express": "latest",
+    "request": "latest"
   },
   "author": "",
   "license": "ISC"
