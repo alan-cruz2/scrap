@@ -3,5 +3,9 @@
 
 
 to run
+
 `npm install`
-`node index.js`
+
+`node [index.js or results.js]`
+
+
